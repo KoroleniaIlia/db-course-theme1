@@ -272,7 +272,7 @@ else{
 }
 ```
 
-- Для пошуку опитування за id використовуємо файл findsurvey.php
+- Для пошуку опитування за ID використовуємо файл findsurvey.php
 
 ```
 <?php
@@ -295,7 +295,7 @@ else{
 }
 ```
 
-- Для редагування опитування використовуємо файл editsurvey.php
+- Для редагування   опитування використовуємо файл editsurvey.php
 
 ```
 <?php
@@ -322,7 +322,7 @@ else{
     echo json_encode('Not Found');
 }
 ```
-
+         
 - Для перегляду всіх опитувань використовуємо файл findallsurvey.php
 
 ```
@@ -339,6 +339,7 @@ if($_SERVER['REQUEST_METHOD'] == "GET")
 
     echo json_encode($data);
 }
+
 else{
     echo json_encode('Not Found');
 }
